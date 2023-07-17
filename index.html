@@ -19,7 +19,7 @@
 
 
     
-    <h2 style="color:blue;">Experiment2</h2> 
+    <h2>Experiment2</h2> 
     <strong>This is a strong demo</strong>
     <br><br><br><br><br><br>
     <strong><code>code demo</code></strong>
@@ -31,11 +31,20 @@
 
 
     <br><br><br><br><br><br>
-    <h3 style="color:blue;">Experiment3</h3>
+    <h3>Experiment3</h3>
     <a href="https://www.youtube.com/">a LINK</a>
     <p id="demo"></p>
+    <canvas id="canvasDemo">
+    </canvas>
+    
+   
     <script>
         document.getElementById("demo").innerHTML = "Hello!";
+        let canvas = document.getElementById("canvasDemo");
+        let canvas2 = canvas.getContext("2d");
+        canvas2.beginPath();
+        canvas2.arc(95, 50, 40, 0, 2 * Math.PI);
+        canvas2.stroke();
         </script>
 
 
@@ -132,7 +141,7 @@
 
 
 <section>
-    <h4 style="color:blue;">Experiment4</h4>
+    <h4>Experiment4</h4>
     </section>
 
 
@@ -144,6 +153,11 @@
         <p><b>Author: Andrew Nguyen</b><br>
         <a href="andrewphanguyen@gmail.com">andrewphanguyen@gmail.com</a></p>
       </footer>
+
+
+
+
+     
 </body>
 
 
