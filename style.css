@@ -10,20 +10,80 @@
     --my-font: 0;
   }
 
-.tabs {
+  
+.container {
     display: flex;
+    background-color: grey;
+
     justify-content: space-around;
     margin: var(--my-font);
     padding: var(--my-font);
     border-bottom: 1px solid var(--my-color);
+    
 }
+
+.container-1 {
+    cursor: pointer;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    flex-shrink: 0;
+}
+
+.bro {
+    
+    transition: transform 1s ease-in;
+}
+
+.bros {
+    background-color: grey;
+}
+
+.bros:hover .bro {
+    transform: translateX(100%);
+    animation: homie 1s ease-in;
+    
+}
+
+@keyframes homie {
+    100% {
+        transform: translateX(100%);
+    }
+    
+}
+
+.container-1:hover {
+    background-color: white;
+}
+
 
 body {
     padding: var(--my-font);
     margin: var(--my-font);
+    text-align: center;
 }
 
 h1 {
     font-family: nos, Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    text-align: center;
 }
+
+h2 {
+    
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+footer {
+    font-size: 150%;
+    text-align: center;
+    align-self: flex-end;
+   
+}
+
+
 
