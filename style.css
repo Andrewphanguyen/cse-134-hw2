@@ -1,3 +1,10 @@
+@font-face {
+    font-family: nos;
+    src: url(fonts/MemphisRiver.otf);
+}
+
+
+
 :root {
     --my-color: black;
     --my-font: 0;
@@ -14,5 +21,9 @@
 body {
     padding: var(--my-font);
     margin: var(--my-font);
+}
+
+h1 {
+    font-family: nos, Arial, Helvetica, sans-serif;
 }
 
