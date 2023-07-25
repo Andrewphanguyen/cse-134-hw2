@@ -1,0 +1,18 @@
+:root {
+    --my-color: black;
+    --my-font: 0;
+  }
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin: var(--my-font);
+    padding: var(--my-font);
+    border-bottom: 1px solid var(--my-color);
+}
+
+body {
+    padding: var(--my-font);
+    margin: var(--my-font);
+}
+
