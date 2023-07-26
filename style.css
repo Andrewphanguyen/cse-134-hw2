@@ -8,6 +8,7 @@
 :root {
     --my-color: black;
     --my-font: 0;
+    --my-color2: white;
   }
 
   
@@ -78,28 +79,28 @@
 .container-1:hover {
     
     animation: homie 1s ease-in;
-    background-color: white;
+    background-color: var(--my-color2);
 
 }
 
 .container-2:hover {
     
     animation: homie 1s ease-in;
-    background-color: white;
+    background-color: var(--my-color2);
 
 }
 
 .container-3:hover {
     
     animation: homie 1s ease-in;
-    background-color: white;
+    background-color: var(--my-color2);
 
 }
 
 .container-4:hover {
     
     animation: homie 1s ease-in;
-    background-color: white;
+    background-color: var(--my-color2);
 
 }
 
