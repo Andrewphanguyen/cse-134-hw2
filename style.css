@@ -145,7 +145,7 @@ p {
 footer {
     font-size: 150%;
     text-align: center;
-    align-self: bottom;
+    
     border: 0.5px solid var(--my-color);
     color: black;
     border: 3px solid black;
