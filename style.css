@@ -37,10 +37,10 @@
 }
 
 .bros {
-    background-color: grey;
+    background-color: white;
 }
 
-.bros:hover .bro {
+.bro:hover .bros {
     transform: translateX(100%);
     animation: homie 1s ease-in;
     
