@@ -158,7 +158,8 @@ footer {
   
     
     body {
-        background-size: cover;
+        
+        padding-bottom: 200px;
     }
 
     
@@ -227,7 +228,9 @@ footer {
 
     }
 
-    
+    body {
+        padding-bottom: 400px;
+    }
    
 }
 
@@ -293,7 +296,9 @@ footer {
 
     }
 
-    
+    body {
+        padding-bottom: 500px;
+    }
    
 }
 
@@ -359,7 +364,9 @@ footer {
 
     }
 
-    
+    body {
+        padding-bottom: 400px;
+    }
    
 }
 
