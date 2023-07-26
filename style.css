@@ -150,9 +150,9 @@ footer {
     
     .container-1 {
         cursor: pointer;
-        padding: 5px;
+        padding: 10px;
         width: 50px;
-        margin: 5px;
+        margin: 10px;
         border: 3px solid black;
         flex-shrink: 0;
         transition: transform 1s;
@@ -162,9 +162,9 @@ footer {
     
     .container-2 {
         cursor: pointer;
-        padding: 5px;
+        padding: 10px;
         width: 50px;
-        margin: 5px;
+        margin: 10px;
         border: 3px solid black;
         flex-shrink: 0;
         transition: transform 1s;
@@ -174,9 +174,9 @@ footer {
     
     .container-3 {
         cursor: pointer;
-        padding: 5px;
+        padding: 10px;
         width: 50px;
-        margin: 5px;
+        margin: 10px;
         border: 3px solid black;
         flex-shrink: 0;
         transition: transform 1s;
@@ -184,10 +184,10 @@ footer {
     
     .container-4 {
         cursor: pointer;
-        padding: 5px;
+        padding: 10px;
         width: 50px;
-        margin: 5px;
-        border: 5px solid black;
+        margin: 10px;
+        border: 3px solid black;
         flex-shrink: 0;
         transition: transform 1s;
     }
