@@ -14,7 +14,7 @@
   
 .container {
     display: flex;
-    background-color: grey;
+    background-color: #CCCCFF;
 
     justify-content: space-around;
     margin: var(--my-font);
@@ -115,17 +115,23 @@
 
 
 
-
+fieldset {
+    border: 3px solid black;
+}
 body {
     padding: var(--my-font);
     margin: var(--my-font);
     text-align: center;
+    background-image: url("thesky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
     font-family: nos, Arial, Helvetica, sans-serif;
     font-size: 300%;
     text-align: center;
+    border: 3px solid black;
 }
 
 h2 {
@@ -141,14 +147,27 @@ footer {
     text-align: center;
     align-self: bottom;
     border: 0.5px solid var(--my-color);
+    color: black;
+    border: 3px solid black;
+   
+}
 
+@media only screen and (max-width: 1220px) {
+   
+    
+  
+    
+    body {
+        background-size: cover;
+    }
+
+    
    
 }
 
 @media only screen and (max-width: 900px) {
     .container {
         display: flex;
-        background-color: grey;
     
         justify-content: space-around;
         margin: var(--my-font);
@@ -215,7 +234,6 @@ footer {
 @media only screen and (max-width: 650px) {
     .container {
         display: flex;
-        background-color: grey;
     
         justify-content: space-around;
         margin: var(--my-font);
@@ -282,7 +300,6 @@ footer {
 @media only screen and (max-width: 430px) {
     .container {
         display: flex;
-        background-color: grey;
     
         justify-content: space-around;
         margin: var(--my-font);
